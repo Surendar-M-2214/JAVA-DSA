@@ -1,4 +1,4 @@
-package binarysrch;
+package src.binarysrch;
 
 public class rotatedArr {
     public static void main(String[] args) {
@@ -10,10 +10,10 @@ if (res != -1){
     if (target==arr[0]){
         System.out.println(0);
     } else if (target<arr[0]) {
-      int tes=  binarySearch.binsearch(arr,target,res+1,arr.length-1);
+      int tes=  binarysrch.binarySearch.binsearch(arr,target,res+1,arr.length-1);
         System.out.println(tes);
     }else if(target>arr[0]) {
-        int tes= binarySearch.binsearch(arr,target,0,res);
+        int tes= binarysrch.binarySearch.binsearch(arr,target,0,res);
         System.out.println(tes);
     }
 }
