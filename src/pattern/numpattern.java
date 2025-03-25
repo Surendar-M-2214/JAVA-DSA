@@ -1,4 +1,4 @@
-package pattern;
+package src.pattern;
 
 public class numpattern {
     public static void main(String[] args) {
