@@ -1,4 +1,4 @@
-package probs;
+package src.probs;
 
 import java.util.ArrayList;
 import java.util.Collections;
