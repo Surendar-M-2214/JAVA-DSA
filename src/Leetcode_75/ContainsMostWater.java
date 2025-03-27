@@ -2,7 +2,7 @@ package src.Leetcode_75;
 
 public class ContainsMostWater {
     public static void main(String[] args) {
-        int[] arr={1,8,6,2,5,4,8,3,7};
+        int[] arr={8,7,2,1};
         System.out.println(maxArea(arr));
     }
     public static int maxArea(int[] height) {
